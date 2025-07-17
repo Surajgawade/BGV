@@ -1,0 +1,6 @@
+# Configuration stuff
+/application/cache/*
+/application/logs/*
+/uploads
+
+# Other files

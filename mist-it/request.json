@@ -1,0 +1,75 @@
+{
+  "pages":[
+    {
+      "url": "https://mistitservices.in/mist-it/home/merge_image/911",
+      "content": null,
+      "urlSettings": {
+        "operation": "GET",
+        "encoding": "utf8",
+        "headers": {},
+        "data": null
+      },
+      "renderType": "png",
+      "outputAsJson": true,
+      "requestSettings": {
+        "ignoreImages": false,
+        "disableJavascript": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Safari/534.34 PhantomJS/2.0.0 (PhantomJsCloud.com/2.0.1)",
+        "authentication": {
+          "userName": "guest",
+          "password": "guest"
+        },
+        "xssAuditingEnabled": false,
+        "webSecurityEnabled": false,
+        "resourceWait": 25000,
+        "resourceTimeout": 45000,
+        "maxWait": 55000,
+        "waitInterval": 4000,
+        "stopOnError": false,
+        "resourceModifier": [],
+        "customHeaders": {},
+        "clearCache": false,
+        "clearCookies": false,
+        "cookies": [],
+        "deleteCookies": []
+      },
+      "suppressJson": [
+        "events.value.resourceRequest.headers",
+        "events.value.resourceResponse.headers",
+        "frameData.content",
+        "frameData.childFrames"
+      ],
+      "renderSettings": {
+        "quality": 70,
+        "pdfOptions": {
+          "border": null,
+          "footer": {
+            "firstPage": null,
+            "height": "1cm",
+            "lastPage": null,
+            "onePage": null,
+            "repeating": "%pageNum%/%numPages%"
+          },
+          "format": "letter",
+          "header": null,
+          "height": null,
+          "orientation": "portrait",
+          "width": null
+        },
+        "clipRectangle": null,
+        "renderIFrame": null,
+        "viewport": {
+          "height": 600,
+          "width": 1000
+        },
+        "zoomFactor": 1,
+        "passThroughHeaders": false
+      },
+      "scripts": {
+        "domReady": [],
+        "loadFinished": []
+      }
+    }
+  ],
+  "proxy":false
+}
